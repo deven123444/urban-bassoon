@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BlockHost is a fast Minecraft server hosting site template ready for GitHub Pages.">
+    <title>BlockHost Minecraft Server Hosting</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="BlockHost home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>BlockHost</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#plans">Plans</a>
+        <a href="#builder">Builder</a>
+        <a href="#status">Status</a>
+        <a href="#order">Order</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Minecraft server hosting</p>
+          <h1>Launch a lag-free world in minutes.</h1>
+          <p class="hero-text">Free community Minecraft hosting with fast SSD nodes, one-click modpack setup, DDoS protection, and a simple request flow powered by GitHub Issues.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#builder">Build a Server</a>
+            <a class="button secondary" href="#plans">View Plans</a>
+          </div>
+          <dl class="hero-stats" aria-label="Hosting highlights">
+            <div>
+              <dt>99.9%</dt>
+              <dd>uptime target</dd>
+            </div>
+            <div>
+              <dt>NVMe</dt>
+              <dd>fast storage</dd>
+            </div>
+            <div>
+              <dt>24/7</dt>
+              <dd>monitoring</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-visual" aria-label="Voxel hosting landscape with glowing server racks">
+          <svg class="voxel-art" viewBox="0 0 900 620" role="img" aria-labelledby="art-title art-desc">
+            <title id="art-title">Voxel hosting server landscape</title>
+            <desc id="art-desc">A stylized block world with server racks, floating islands, and network lights.</desc>
+            <defs>
+              <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0" stop-color="#121923"/>
+                <stop offset="0.6" stop-color="#1d2830"/>
+                <stop offset="1" stop-color="#2c3c37"/>
+              </linearGradient>
+              <linearGradient id="stone" x1="0" x2="1">
+                <stop offset="0" stop-color="#5e6863"/>
+                <stop offset="1" stop-color="#2b3532"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="4" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            <rect width="900" height="620" fill="url(#sky)"/>
+            <circle cx="724" cy="116" r="42" fill="#f0d99c" opacity="0.9"/>
+            <g opacity="0.55" stroke="#7fe0a5" stroke-width="2" fill="none">
+              <path d="M110 278 C260 160 362 394 516 244 S756 190 824 280"/>
+              <path d="M184 366 C300 288 404 430 552 326 S740 318 810 388"/>
+            </g>
+            <g class="stars" fill="#f6f0d0">
+              <circle cx="86" cy="86" r="2"/>
+              <circle cx="194" cy="142" r="1.6"/>
+              <circle cx="342" cy="76" r="1.8"/>
+              <circle cx="518" cy="132" r="2"/>
+              <circle cx="810" cy="92" r="1.5"/>
+              <circle cx="680" cy="222" r="1.6"/>
+            </g>
+            <g transform="translate(586 218)">
+              <polygon points="0,74 74,38 150,72 78,112" fill="#3a4a3d"/>
+              <polygon points="0,74 78,112 78,158 0,116" fill="#25312b"/>
+              <polygon points="150,72 78,112 78,158 150,118" fill="#1c2826"/>
+              <rect x="42" y="58" width="52" height="18" fill="#6bbd5a"/>
+              <rect x="52" y="36" width="32" height="28" fill="#7ed96a"/>
+            </g>
+            <g transform="translate(112 246)">
+              <polygon points="0,58 62,26 126,56 62,88" fill="#405744"/>
+              <polygon points="0,58 62,88 62,128 0,96" fill="#2b372e"/>
+              <polygon points="126,56 62,88 62,128 126,96" fill="#202a27"/>
+              <rect x="36" y="40" width="46" height="18" fill="#79cc5b"/>
+            </g>
+            <g transform="translate(356 206)">
+              <polygon points="0,144 178,50 366,136 188,230" fill="#536059"/>
+              <polygon points="0,144 188,230 188,428 0,334" fill="url(#stone)"/>
+              <polygon points="366,136 188,230 188,428 366,328" fill="#222d2b"/>
+              <polygon points="58,134 180,72 304,128 184,190" fill="#6e9d53"/>
+              <polygon points="88,120 178,76 272,118 184,166" fill="#85d265"/>
+              <g filter="url(#glow)">
+                <rect x="54" y="188" width="86" height="118" rx="4" fill="#141b20" stroke="#86f0a2" stroke-width="3"/>
+                <rect x="218" y="174" width="86" height="132" rx="4" fill="#141b20" stroke="#ffc65e" stroke-width="3"/>
+                <line x1="72" y1="212" x2="122" y2="212" stroke="#86f0a2" stroke-width="4"/>
+                <line x1="72" y1="240" x2="122" y2="240" stroke="#86f0a2" stroke-width="4"/>
+                <line x1="72" y1="268" x2="122" y2="268" stroke="#86f0a2" stroke-width="4"/>
+                <line x1="236" y1="202" x2="286" y2="202" stroke="#ffc65e" stroke-width="4"/>
+                <line x1="236" y1="232" x2="286" y2="232" stroke="#ffc65e" stroke-width="4"/>
+                <line x1="236" y1="262" x2="286" y2="262" stroke="#ffc65e" stroke-width="4"/>
+              </g>
+            </g>
+            <g transform="translate(98 422)">
+              <polygon points="0,66 286,0 578,78 294,158" fill="#5b6b55"/>
+              <polygon points="0,66 294,158 294,214 0,120" fill="#364236"/>
+              <polygon points="578,78 294,158 294,214 578,132" fill="#25322f"/>
+              <g fill="#83c85b">
+                <rect x="86" y="40" width="44" height="24"/>
+                <rect x="144" y="58" width="44" height="24"/>
+                <rect x="224" y="30" width="44" height="24"/>
+                <rect x="402" y="74" width="44" height="24"/>
+              </g>
+              <g fill="#d4ad66">
+                <rect x="274" y="58" width="36" height="36"/>
+                <rect x="318" y="70" width="36" height="36"/>
+              </g>
+            </g>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="plans section" id="plans">
+        <div class="section-heading">
+          <p class="eyebrow">Plans</p>
+          <h2>Pick the world size.</h2>
+        </div>
+        <div class="plan-grid">
+          <article class="plan">
+            <h3>Starter</h3>
+            <p class="plan-value">Free</p>
+            <ul>
+              <li>2 GB RAM</li>
+              <li>10 player slots</li>
+              <li>Paper, Spigot, Vanilla</li>
+            </ul>
+            <a class="text-link" href="#builder" data-plan="Starter">Configure</a>
+          </article>
+          <article class="plan featured">
+            <p class="badge">Popular</p>
+            <h3>Survival</h3>
+            <p class="plan-value">Free</p>
+            <ul>
+              <li>6 GB RAM</li>
+              <li>35 player slots</li>
+              <li>Modpacks and backups</li>
+            </ul>
+            <a class="text-link" href="#builder" data-plan="Survival">Configure</a>
+          </article>
+          <article class="plan">
+            <h3>Network</h3>
+            <p class="plan-value">Free</p>
+            <ul>
+              <li>12 GB RAM</li>
+              <li>100 player slots</li>
+              <li>Proxy-ready setup</li>
+            </ul>
+            <a class="text-link" href="#builder" data-plan="Network">Configure</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="builder section" id="builder">
+        <div class="section-heading">
+          <p class="eyebrow">Builder</p>
+          <h2>Configure your server.</h2>
+        </div>
+        <div class="builder-layout">
+          <form class="builder-form" id="server-form">
+            <label>
+              Server name
+              <input id="serverName" name="serverName" type="text" value="My SMP" autocomplete="organization">
+            </label>
+
+            <label>
+              Plan
+              <select id="plan" name="plan">
+                <option value="Starter">Starter</option>
+                <option value="Survival" selected>Survival</option>
+                <option value="Network">Network</option>
+              </select>
+            </label>
+
+            <label>
+              Game type
+              <select id="gameType" name="gameType">
+                <option>Vanilla</option>
+                <option selected>Paper</option>
+                <option>Forge</option>
+                <option>Fabric</option>
+                <option>Proxy network</option>
+              </select>
+            </label>
+
+            <label class="range-label">
+              RAM
+              <span><output id="ramOutput">6</output> GB</span>
+              <input id="ram" name="ram" type="range" min="2" max="16" step="1" value="6">
+            </label>
+
+            <div class="checkbox-row">
+              <label><input id="backups" type="checkbox" checked> Daily backups</label>
+              <label><input id="priority" type="checkbox"> Priority support</label>
+              <label><input id="dedicatedIp" type="checkbox"> Dedicated IP</label>
+            </div>
+          </form>
+
+          <aside class="summary" id="order">
+            <h3>Access</h3>
+            <p class="summary-value" id="total">Free</p>
+            <dl>
+              <div>
+                <dt>Selected plan</dt>
+                <dd id="summaryPlan">Survival</dd>
+              </div>
+              <div>
+                <dt>RAM</dt>
+                <dd id="summaryRam">6 GB</dd>
+              </div>
+              <div>
+                <dt>Add-ons</dt>
+                <dd id="summaryAddons">Daily backups</dd>
+              </div>
+            </dl>
+            <label>
+              GitHub repo for orders
+              <input id="githubRepo" type="text" value="your-name/blockhost" spellcheck="false">
+            </label>
+            <a class="button primary full" id="issueLink" target="_blank" rel="noreferrer">Request Free Server</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="status section" id="status">
+        <div class="section-heading">
+          <p class="eyebrow">Status</p>
+          <h2>Live node overview.</h2>
+        </div>
+        <div class="status-grid">
+          <article class="status-item online">
+            <span></span>
+            <h3>EU-01 Amsterdam</h3>
+            <p>Online</p>
+          </article>
+          <article class="status-item online">
+            <span></span>
+            <h3>US-02 Virginia</h3>
+            <p>Online</p>
+          </article>
+          <article class="status-item maintenance">
+            <span></span>
+            <h3>Backups Cluster</h3>
+            <p>Maintenance window</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>BlockHost is an independent hosting template and is not affiliated with Mojang or Microsoft.</p>
+      <a href="https://github.com/" target="_blank" rel="noreferrer">Powered by GitHub Pages</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
